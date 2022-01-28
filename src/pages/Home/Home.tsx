@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 const Home = () => {
@@ -5,7 +6,9 @@ const Home = () => {
         <div className="home-container">
             <h1>Desafio Github API</h1>
             <p>Bootcamp Spring React - DevSuperior</p>
-            <button className="btn btn-primary btn-lg start-button">Começar</button>
+            <Link to="/githubsearch">
+                <button className="btn btn-primary btn-lg start-button">Começar</button>
+            </Link>
         </div>
     );
 }

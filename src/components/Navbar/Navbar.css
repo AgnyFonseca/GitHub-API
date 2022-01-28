@@ -23,3 +23,10 @@
       padding-left: 40px;
     }
   }
+
+  /* L */
+  @media (min-width: 992px) {
+    .main-nav {
+      padding-left: 60px;
+    }
+  }

@@ -1,0 +1,25 @@
+.result-container {
+    height: 40px;
+    width: 100%;
+    margin: 5px 0;
+    padding: 6px 0;
+    padding-left: 8px;
+    background-color: #fff;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    color: #737373;
+    font-size: 16px;
+    display: flex;
+    align-items: baseline;
+    
+}
+
+.result-container h6 {
+    font-weight: 700;
+}
+
+.result-container p {
+    text-align: center;
+    padding-left: 6px;
+}
+

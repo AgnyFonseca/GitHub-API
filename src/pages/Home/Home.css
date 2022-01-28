@@ -1,4 +1,5 @@
 .home-container {
+    margin-top: 20px;
     padding-top: 22px;
     padding-left: 8px;
 }
@@ -26,6 +27,7 @@
  /* MD */
  @media (min-width: 768px) {
     .home-container {
+        margin-top: 40px;
         padding-top: 30px;
         padding-left: 40px;
     }
@@ -42,6 +44,13 @@
         margin-top: 30px;
         color: #fff;
         font-size: 16px;
+    }
+  }
+
+  /* L */
+  @media (min-width: 992px) {
+    .home-container {
+        padding-left: 60px;
     }
   }
 
