@@ -1,0 +1,47 @@
+.home-container {
+    padding-top: 22px;
+    padding-left: 8px;
+}
+
+.home-container h1 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.home-container p {
+    font-weight: 700;
+    color: #7E7E7E;
+}
+
+.home-container button {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.home-container button:hover {
+    color: #e5e5e5;
+}
+
+ /* MD */
+ @media (min-width: 768px) {
+    .home-container {
+        padding-top: 30px;
+        padding-left: 40px;
+    }
+
+    .home-container h1 {
+        font-size: 48px;
+    }
+    
+    .home-container p {
+        font-size: 24px;
+    }
+    
+    .home-container button {
+        margin-top: 30px;
+        color: #fff;
+        font-size: 16px;
+    }
+  }
+
